@@ -157,7 +157,7 @@ class SettingsViewController: UITableViewController, PinViewControllerDelegate {
     }
     
     fileprivate func setCellEnabled(_ cell: UITableViewCell, enabled: Bool) {
-        cell.selectionStyle = enabled ? UITableViewCellSelectionStyle.blue : UITableViewCellSelectionStyle.none
+        cell.selectionStyle = enabled ? UITableViewCell.SelectionStyle.blue : UITableViewCell.SelectionStyle.none
         cell.textLabel!.isEnabled = enabled
         cell.detailTextLabel?.isEnabled = enabled
     }

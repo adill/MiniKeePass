@@ -40,9 +40,9 @@ class SelectionViewController: UITableViewController {
         cell.textLabel!.text = items[indexPath.row]
         
         if (indexPath.row == selectedIndex) {
-            cell.accessoryType = UITableViewCellAccessoryType.checkmark;
+            cell.accessoryType = UITableViewCell.AccessoryType.checkmark;
         } else {
-            cell.accessoryType = UITableViewCellAccessoryType.none;
+            cell.accessoryType = UITableViewCell.AccessoryType.none;
         }
 
         return cell
@@ -55,12 +55,12 @@ class SelectionViewController: UITableViewController {
             // Remove the checkmark from the current selection
             if (selectedIndex != -1) {
                 let cell = tableView.cellForRow(at: IndexPath(row: selectedIndex, section: 0))!
-                cell.accessoryType = UITableViewCellAccessoryType.none;
+                cell.accessoryType = UITableViewCell.AccessoryType.none;
             }
             
             // Add the checkmark to the new selection
             let cell = tableView.cellForRow(at: indexPath)!
-            cell.accessoryType = UITableViewCellAccessoryType.checkmark;
+            cell.accessoryType = UITableViewCell.AccessoryType.checkmark;
             
             selectedIndex = indexPath.row;
             

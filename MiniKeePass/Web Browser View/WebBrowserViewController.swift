@@ -49,8 +49,8 @@ class WebBrowserViewController: UIViewController, WKNavigationDelegate {
 
         // Add autolayout constraints for the web view
         webView.translatesAutoresizingMaskIntoConstraints = false
-        let widthConstraint = NSLayoutConstraint(item: webView, attribute: .width, relatedBy: .equal, toItem: view, attribute: .width, multiplier: 1, constant: 0)
-        let heightConstraint = NSLayoutConstraint(item: webView, attribute: .height, relatedBy: .equal, toItem: view, attribute: .height, multiplier: 1, constant: 0)
+        let widthConstraint = NSLayoutConstraint(item: webView!, attribute: .width, relatedBy: .equal, toItem: view, attribute: .width, multiplier: 1, constant: 0)
+        let heightConstraint = NSLayoutConstraint(item: webView!, attribute: .height, relatedBy: .equal, toItem: view, attribute: .height, multiplier: 1, constant: 0)
         view.addConstraints([widthConstraint, heightConstraint])
 
         // Configure the delegate and observers
