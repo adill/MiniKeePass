@@ -22,7 +22,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.jflan.MiniKeePass.kdbx</string>
+				<string>com.adill.MiniKeePass.kdbx</string>
 			</array>
 		</dict>
 		<dict>
@@ -39,7 +39,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.jflan.MiniKeePass.kdb</string>
+				<string>com.adill.MiniKeePass.kdb</string>
 			</array>
 		</dict>
 		<dict>
@@ -56,7 +56,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.jflan.MiniKeePass.key</string>
+				<string>com.adill.MiniKeePass.key</string>
 			</array>
 		</dict>
 	</array>
@@ -123,8 +123,10 @@
 			</array>
 			<key>UTTypeDescription</key>
 			<string>KeePass 2.x Database</string>
+			<key>UTTypeIconFiles</key>
+			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>com.jflan.MiniKeePass.kdbx</string>
+			<string>com.adill.MiniKeePass.kdbx</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -140,8 +142,10 @@
 			</array>
 			<key>UTTypeDescription</key>
 			<string>KeePass 1.x Database</string>
+			<key>UTTypeIconFiles</key>
+			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>com.jflan.MiniKeePass.kdb</string>
+			<string>com.adill.MiniKeePass.kdb</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -157,8 +161,10 @@
 			</array>
 			<key>UTTypeDescription</key>
 			<string>KeePass Keyfile</string>
+			<key>UTTypeIconFiles</key>
+			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>com.jflan.MiniKeePass.key</string>
+			<string>com.adill.MiniKeePass.key</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
